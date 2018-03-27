@@ -7,9 +7,9 @@ $email = 'kanstantsin.litvin@gmail.com';
 $city = 'Брест';
 $about = 'продавец-консультант';
 
-$HTML = '<html lang="ru">
+<html lang="ru">
     <head>
-        <title><?php echo $name. '-' .$about?></title>
+        <title><?= $name. '-' .$about ?></title>
         <meta charset="utf-8">
         <style>
             body {
@@ -27,7 +27,7 @@ $HTML = '<html lang="ru">
         </style>
     </head>
     <body>
-        <h1>Страница пользователя <?php echo $name ?></h1>
+        <h1>Страница пользователя <?= $name ?></h1>
         <dl>
             <dt>Имя</dt>
             <dd>.$name.</dd>
@@ -49,8 +49,4 @@ $HTML = '<html lang="ru">
             <dd>$about</dd>
         </dl>
     </body>
-</html>'
-
-print $HTML;
-
-?>
+</html>
