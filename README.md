@@ -27,7 +27,7 @@ $HTML = '<html lang="ru">
         </style>
     </head>
     <body>
-        <h1>Страница пользователя .$name.</h1>
+        <h1>Страница пользователя <?php echo $name ?></h1>
         <dl>
             <dt>Имя</dt>
             <dd>.$name.</dd>
