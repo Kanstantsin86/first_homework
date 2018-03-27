@@ -9,7 +9,7 @@ $about = 'продавец-консультант';
 
 $HTML = '<html lang="ru">
     <head>
-        <title><?php echo $name. - .$about?></title>
+        <title><?php echo $name. '-' .$about?></title>
         <meta charset="utf-8">
         <style>
             body {
