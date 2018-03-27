@@ -6,8 +6,7 @@ $age = '31';
 $email = 'kanstantsin.litvin@gmail.com';
 $city = 'Брест';
 $about = 'продавец-консультант';
-
-<html lang="ru">
+?>
     <head>
         <title><?= $name. '-' .$about ?></title>
         <meta charset="utf-8">
@@ -27,26 +26,25 @@ $about = 'продавец-консультант';
         </style>
     </head>
     <body>
-        <h1>Страница пользователя <?= $name ?></h1>
+        <h1>Страница пользователя <?= $name ?> </h1>
         <dl>
             <dt>Имя</dt>
-            <dd>.$name.</dd>
+            <dd><?= $name ?></dd>
         </dl>
         <dl>
             <dt>Возраст</dt>
-            <dd>#age</dd>
+            <dd><?= $age ?></dd>
         </dl>
         <dl>
             <dt>Адрес электронной почты</dt>
-            <dd><a href="mailto:$email">$email</a></dd>
+            <dd><a href="mailto:$email">. '' . <?= $email ?></a></dd>
         </dl>
         <dl>
             <dt>Город</dt>
-            <dd>$city</dd>
+            <dd><?= $city ?></dd>
         </dl>
         <dl>
             <dt>О себе</dt>
-            <dd>$about</dd>
+            <dd><?= $about ?></dd>
         </dl>
     </body>
-</html>
