@@ -37,7 +37,7 @@ $about = 'продавец-консультант';
         </dl>
         <dl>
             <dt>Адрес электронной почты</dt>
-            <dd><a href="mailto:$email">. '' . <?= $email ?></a></dd>
+            <dd><a href="mailto:$email"><?= $email ?></a></dd>
         </dl>
         <dl>
             <dt>Город</dt>
